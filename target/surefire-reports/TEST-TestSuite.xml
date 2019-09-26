@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="35.514" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1255"/>
+    <property name="java.class.path" value="C:\maven\apache-maven-3.6.2\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="BellSoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://bell-sw.com/"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="maven.conf" value="C:\maven\apache-maven-3.6.2\bin\../conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=chrome"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\maven\apache-maven-3.6.2\bin\.."/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\gabri"/>
+    <property name="user.language" value="he"/>
+    <property name="sun.stderr.encoding" value="cp862"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp862"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.4-BellSoft+10"/>
+    <property name="user.name" value="gabriel"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1255"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugs.openjdk.java.net"/>
+    <property name="java.io.tmpdir" value="C:\Users\gabri\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.4-BellSoft"/>
+    <property name="user.dir" value="C:\Users\gabri\eclipse-workspace\E2EProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\gabri\eclipse-workspace\E2EProject"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\PROGRA~2\Groovy\GROOVY~1.8\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Users\gabri\AppData\Roaming\npm;C:\Android\sdk\platform-tools;C:\Android\sdk\tools;C:\maven\apache-maven-3.6.2\bin;C:\Android\sdk\tools\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Java\jdk-11.0.4\bin;C:\Users\gabri\AppData\Local\Microsoft\WindowsApps;C:\Users\gabri\AppData\Roaming\npm;C:\Users\gabri\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.1\bin;;C:\Users\gabri\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="BellSoft"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.4-BellSoft+10"/>
+    <property name="classworlds.conf" value="C:\maven\apache-maven-3.6.2\bin\..\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\maven\apache-maven-3.6.2\bin\..\lib\jansi-native"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="basePageNavigation" classname="Academy.HomePage" time="10.782"/>
+  <testcase name="basePageNavigation" classname="Academy.HomePage" time="4.492"/>
+  <testcase name="validateAppTitle" classname="Academy.validateTitle" time="0.043"/>
+  <testcase name="validateTitleHeader" classname="Academy.validateTitle" time="0.035"/>
+  <testcase name="validateAppNavBar" classname="Academy.validateNavigationBar" time="0.081"/>
+</testsuite>
