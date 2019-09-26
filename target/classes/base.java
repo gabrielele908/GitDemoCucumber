@@ -44,6 +44,8 @@ String browserName=prop.getProperty("browser"); //take a value inside in the Pro
 				options.addArguments("headless");
 			}
 		    System.out.println("update git");
+		    System.out.println("update git2");
+		    System.out.println("update git3");
 			driver = new ChromeDriver(options);
 			// execute in chrome driver
 
